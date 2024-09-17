@@ -1,21 +1,17 @@
 {
-    "name": "sgkirby/a11yprompter",
-    "description": "Kirby wrapper for automated content accessibility checkers Editoria11y and Sa11y.",
-    "version": "1.0.0",
-    "type": "kirby-plugin",
-    "license": "GPL-2.0-only",
-    "authors": [
-        {
-            "name": "Sebastian Greger",
-            "email": "msg@sebastiangreger.net"
-        }
-    ],
-    "keywords": [
-        "kirby3",
-        "kirby3-cms",
-        "kirby3-plugin"
-    ],
-    "require": {
-        "getkirby/composer-installer": "^1.1"
-    }
+	"name": "florianboegner/kirby-sa11y",
+	"description": "Kirby wrapper for automated content accessibility checker Sa11y.",
+	"version": "1.0.0",
+	"type": "kirby-plugin",
+	"license": "GPL-2.0-only",
+	"authors": [
+		{
+			"name": "Florian Bögner",
+			"email": "kontakt@florianboegner.com"
+		}
+	],
+	"keywords": ["kirby3", "kirby3-cms", "kirby3-plugin"],
+	"require": {
+		"getkirby/composer-installer": "^1.1"
+	}
 }

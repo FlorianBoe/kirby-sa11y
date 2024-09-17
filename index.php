@@ -1,21 +1,21 @@
 <?php
 
-namespace sgkirby\A11yprompter;
+namespace florianboegner\sa11y;
 
 /**
- * Kirby 3 A11yprompter
+ * Kirby sa11y
  *
- * @version   1.0.0
- * @author    Sebastian Greger <msg@sebastiangreger.net>
- * @copyright Sebastian Greger <msg@sebastiangreger.net>
- * @link      https://github.com/sebastiangreger/kirby3-a11yprompter
+ * @version   3.2.3
+ * @author    Florian Bögner <kontakt@florianboegner.com>
+ * @copyright Florian Bögner <kontakt@florianboegner.com>
+ * @link      https://github.com/FlorianBoe/kirby-sa11y
  * @license   GPLv2
  */
 
-\Kirby::plugin('sgkirby/a11yprompter', [
+\Kirby::plugin('florianboegner/kirby-sa11y', [
 
-    'snippets' => [
-        'a11yprompter' => __DIR__ . '/snippets/a11yprompter.php'
-    ],
+	'snippets' => [
+		'sa11y'	=> __DIR__ . '/snippets/sa11y.php'
+	],
 
 ]);
